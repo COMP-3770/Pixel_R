@@ -50,7 +50,7 @@ public class ChargerEnemy : MonoBehaviour
     {
         health -= amount;
         healthBar.fillAmount = health / startHealth;
-        rb.velocity = transform.forward * speed * Time.deltaTime * 10f;
+      //  rb.velocity = transform.forward * speed * Time.deltaTime * 10f;
         if (health < 0)
         {
             health = 0;

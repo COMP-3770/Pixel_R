@@ -7,6 +7,7 @@ public class playerController : MonoBehaviour
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
     public float speedScale = 100f;
+
   //  public float jumpSpeed = 5f;
     public float jumpForce;
     private float movement = 0f;
@@ -16,14 +17,21 @@ public class playerController : MonoBehaviour
     public Vector3 groundCheckHalfExtents;
     public LayerMask groundLayer;
     private bool isBotTounchingGround;
+
+
     private int extraJumps;
     public int numJumps = 1;
+
+
     //   private bool isUpTounchingGround;
     private Animator playerAnimation;
 
+
     private bool m_FacingRight = true; //for determing which way the player is curretlyfacing.
 
-  //  public Vector3 respawnPoint;
+    //health bar
+    public HealthSystem healthSystem;
+    //  public Vector3 respawnPoint;
     //   public LevelManager gameLM;
     // Start is called before the first frame update
     void Start()
@@ -49,6 +57,7 @@ public class playerController : MonoBehaviour
 
         if (movement > 0f && !m_FacingRight)
         {       
+
             Flip();
         }
         else if (movement < 0f && m_FacingRight)
@@ -127,6 +136,19 @@ public class playerController : MonoBehaviour
         */
     }
 
-    
+    /*
+
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        healthBar.fillAmount = health / startHealth;
+        if (health < 0)
+        {
+            health = 0;
+            Die();
+        }
+    }
+    */
+
 }
 

@@ -18,7 +18,7 @@ public class cameraController : MonoBehaviour
     void Update()
     {
         playerPosition = new Vector3(player.transform.position.x, transform.position.y, transform.position.z);
-        if (player.transform.localScale.z > 0f)
+        if (UnityEditor.TransformUtils.GetInspectorRotation(player.transform).y > 0f)
         {
             playerPosition = new Vector3(player.transform.position.x + offset, playerPosition.y, playerPosition.z);
         }
