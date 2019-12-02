@@ -1,0 +1,74 @@
+**********************************************
+3D Pixel-Art Underground Subway Metro Station level Modular Kit
+				
+Copyright © 2019 EmaceArt
+https://www.facebook.com/EmacEArt/
+
+emaceart@gmail.com
+
+**********************************************
+
+
+**Version changes:**
+
+**UPDATE v1.10 CHANGELOG (17.12.2018) **
+
+- Update demo scene.
+- The proportions of some models have been improved
+- Tunnel segments correction
+- Walls have 10x10 units
+- improved pipes joining
+- smaller number of segments for joining
+- improved proportions of some models
+- lighting box post processing instruction (PDF)
+- Unity stack profile added
+- LUT color correction added
+- Unity stack post processing instruction (PDF)
+
+**UPDATE v1.11 CHANGELOG (27.12.2018) **
+
+- Proportions of models fixed
+- Texture atlas update - Outline cell shading effect added
+- New texture atlas added (WIP)
+- New more than 20 tech room props useful to build your technical room
+- New 40 Walls, floor, roof modules (white porcelain tiles) 
+- Gates added 
+- Tourist luggages added
+- handrails added
+- cardboards added
+
+**UPDATE v1.12 CHANGELOG (09.01.2019) **
+
+- a new type of walls for making interiors
+- a set of assets for self door placement on walls
+- entrance to interiors inside the tunnel
+- a new model of trolley
+- a new model of accumulator
+
+**UPDATE v1.13 CHANGELOG (23.01.2019) **
+==============
+
+New models: 
+- Ticket Barrier
+- Escalators
+- Ticket Machine
+- 6x Tickets 
+- 5x warning tapes
+- 4x Cabble
+- 4x Steel Gate
+- Wooden boxes
+- Many variations of such things as 3xWorksPlace_Bridge, 1xBarier, 2xladders
+Fixes:
+- Walls texture correction
+- Door frame and doors permanentaly separated from the wall
+- Bridge texture correction
+- A hatch in the ceiling has been added
+- Walls and tunels texture correction
+- Postprocessing stack manual updated
+
+**UPDATE v1.14 CHANGELOG (30.01.2019) **
+==============
+
+- Escalators wide geometry correct
+- PostApo texture added (Work in preogress)
+- Dirt texture modified
